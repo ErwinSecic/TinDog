@@ -1,0 +1,164 @@
+#title {
+  background-color: #ff4c68;
+}
+
+h1, h3, h4, h5 {
+  font-family: 'Russo One', sans-serif;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+p {
+  color: #8f8f8f;
+  line-height: 2;
+}
+
+.big-heading {
+  color: #fff;
+  font-size: 5rem;
+  line-height: 1.5;
+
+}
+
+.container-fluid {
+  padding: 1% 10% 7%;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.8rem;
+  padding: 0 0 0 12px;
+}
+
+.row {
+  margin: 60px auto;
+}
+
+.img-1 {
+  width: 65%;
+  margin-left: 5%;
+  margin-top: 3%;
+  transform: rotate(15deg);
+  left: 49%;
+  position: absolute;
+}
+
+.nav-link {
+  margin: 30px;
+  font-size: 1.3rem;
+}
+
+.btn {
+  margin: auto 9px;
+}
+
+/* Feuters */
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+
+.col-lg-4 {
+  text-align: center;
+}
+
+.features-img {
+  color: #ef8172;
+  font-size: 60px;
+  padding-bottom: 5%;
+}
+
+.features-img:hover {
+  color: #ff4c68;
+}
+
+/* testimonials  Section*/
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-img {
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* press */
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 40px;
+}
+
+.carousel-item {
+  padding: 7% 10%;
+}
+
+/* pricing section */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+@media (max-width: 991px) {
+  #title {
+    text-align: center;
+  }
+
+  .img-1 {
+    position: static;
+    transform: none;
+  }
+}
+
+/* <!-- Call to Action --> */
+
+#cta {
+  background-color: #ff4c68;
+  padding: 100px;
+  text-align: center;
+}
+
+.cta-text {
+  font-size: 3rem;
+  line-height: 2;
+  color: #fff;
+  margin-bottom: 3%;
+  font-weight: lighter;
+}
+
+.btn-cta {
+  margin: 10px 20px;
+}
+
+/* Footer Section */
+
+#footer {
+  background-color: #fff;
+  padding: 3% 10% 1%;
+  text-align: center;
+}
+
+.footer-icon {
+  margin: 0 8px 20px;
+}
